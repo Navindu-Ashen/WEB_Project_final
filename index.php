@@ -1,0 +1,148 @@
+<?php
+  include_once 'header.php'; 
+?>
+
+
+
+<div class="container-fluid">
+<section>&nbsp;
+  <div class="row">
+    <div class="col-xl-6"><img src="images/FinallogodesignE.jpg" width="620" height="620" alt=""/></div>
+    <div class="col-xl-6">
+      <h1 class="text-center"><strong>Weclome to HOVOC
+        <?php
+            if(isset($_SESSION["username"])){
+                echo $_SESSION["username"]. ' !';
+            }else if(isset($_SESSION["adminName"])){
+              echo $_SESSION["adminName"].' !';
+            }else{
+                echo ' !';
+            }
+        ?></strong></h1>
+    <ul>
+      <li>Explore the latest fashion trends and timeless styles.</li>
+      <li>Express your unique style with our carefully curated collection.</li>
+      <li>Enjoy a seamless and hassle-free shopping experience.</li>
+      <li>Discover the perfect pieces to elevate your wardrobe.</li>
+    </ul>
+      <center><a href="aboutUs.php" class="btn btn-info">Learn more</a></center>
+    </div>
+  </div>
+</section>
+<section><center class="u-section2-breakLine"><img src="images/Break line_e.png" width="1000" height="5" alt=""/></center>
+	<h1 class="text-center u-section2-h1">Get ready to elevate your<br> wardrobe and make a statement<br> wherever you go.</h1>
+</section>
+<section class="U-section3-body">
+<h1 class="text-center u-section3-h1"><strong>
+  <section>TRENDING</section>
+</strong></h1>
+<div class="container">
+  <div>
+    <div class="row">
+      <div class="col-xl-4">
+        <div class="card col-md-4 col-xl-11"> <img class="card-img-top" src="images/productN/men/6/F2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><strong>CROCHET PATCHWORK SHIRT</strong></h5>
+            <p class="card-text">Relaxed fit shirt made of open textured fabric. Lapel collar and short sleeves. Front button closure.</p>
+            <h6 class="u-section3-cardPrise1 text-left"><strong style="color: #CD8D34;"><center>6990 LKR</center></strong><a href="shopMen.php" class="btn ">BUY NOW</a></h6>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card col-md-4 col-xl-11"> <img class="card-img-top" src="images/22.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><strong>KNIT CAPE T-SHIRT</strong></h5>
+            <p class="card-text">Round neck T-shirt with cape style sleeves. Asymmetric hem.<br><br><br><br></p>
+            <h6 class="u-section3-cardPrise1"><strong style="color: #CD8D34;"><center>1990 LKR</center></strong><a href="shpoWomen.php" class="btn ">BUY NOW</a></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card col-md-4 col-xl-11"> <img class="card-img-top" src="images/productN/men/11/K2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><strong>BASIC COLORED SHORTS</strong></h5>
+            <p class="card-text">Shorts made of cotton. Five pockets. Washed effect. Front zip and button closure.<br><br><br></p>
+            <h6 class="u-section3-cardPrise1"><strong style="color: #CD8D34;"><center>1299 LKR</center></strong><a href="shopMen.php" class="btn ">BUY NOW</a></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section>
+  <div class="container-fluid">
+	<h2 class="text-center u-section4-h1"><strong>NEW ARRIVALS</strong></h2>
+<div class="row">
+  <div class="col-xl-3">
+    <div class="card col-md-4 col-xl-12"> <img class="card-img-top" src="images/productN/men/1/A5.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center" style="color: black;">PRINTED<br> KNIT T-SHIRTE</h5>
+        <p class="card-text text-center">3590 LKR</p>
+        <center><a class="u-section4-button3" href="shopMen.php" style="color: #CD8D34;">BUY NOW</a></center> </div>
+    </div>
+  </div>
+      <div class="col-xl-3">
+        <div class="card col-md-4 col-xl-12"> <img class="card-img-top" src="images/productN/men/6/F2.jpg" alt="Card image cap">
+          <div class="card-body">
+        <h5 class="card-title text-center" style="color: black;">CROCHET PATCHWORK SHIRT</h5>
+        <p class="card-text text-center">6990 LKR</p>
+        <center><a class="u-section4-button3" href="shopMen.php" style="color: #CD8D34;">BUY NOW</a></center> </div>
+        </div>
+      </div>
+      <div class="col-xl-3">
+        <div class="card col-md-4 col-xl-12"> <img class="card-img-top" src="images/productN/women/3/c2.jpg" alt="Card image cap">
+          <div class="card-body">
+        <h5 class="card-title text-center" style="color: black;">TRF MID RISE DENIM SHORTS</h5>
+        <p class="card-text text-center">3990 LKR</p>
+        <center><a class="u-section4-button3" href="shopWomen.php" style="color: #CD8D34;">BUY NOW</a></center> </div>
+        </div>
+      </div>
+      <div class="col-xl-3">
+        <div class="card col-md-4 col-xl-12"> <img class="card-img-top" src="images/productN/women/8/h1.jpg" alt="Card image cap">
+          <div class="card-body">
+        <h5 class="card-title text-center" style="color: black;">GIRLS PRINT WASHED T-SHIRT</h5>
+        <p class="card-text text-center">2790 LKR</p>
+        <center><a class="u-section4-button3" href="shopWomen.php" style="color: #CD8D34;">BUY NOW</a></center> </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>
+<section>
+  <div class="row">
+    <div class="U-section5-div2 col-xl-6">
+      <video loop autoplay muted><source src="videos/video 1.mp4"></video>
+    </div>
+    <div class="col-xl-6 U-section5-div2">
+      <h1 class="text-uppercase"><strong>Conscious approach to fashion.</strong></h1>
+      <h5>Browse through our carefully selected range of stylish apparel</h5>
+      <a href="shopMen.php" class="btn btn-info U-section5-button">SHOP COLLECTION</a>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="row">
+    <div class="col-xl-6 u-section6-div12">
+		<h2 class="u-section7-div1-h2"><center>Shop Men</center></h2>
+      <a href="shopMen.php" class="btn btn-info U-section7-div1-button">SHOP MEN</a>
+    </div>
+    <div class="col-xl-6 u-section6-div2">
+<h2 class="u-section7-div2-h2">Shop Women</h2>
+	  <a href = "shopWomen.php" class="btn btn-info u-section7-div2-button2">SHOP WOMEN</a>
+    </div>
+  </div>
+</section>
+
+<?php
+  include_once 'footer.php';
+?>
+
+</div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

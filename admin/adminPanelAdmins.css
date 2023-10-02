@@ -1,0 +1,86 @@
+@charset "utf-8";
+.U-section-adminPanelMens {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.U-section-adminPanelMens .U-form-adminPanelMens .btn.btn-primary {
+    width: 100%;
+    height: 50px;
+    background-color: #CD8B34;
+    border: none;
+    border-radius: 5px;
+}
+.U-section-adminPanelMens .U-form-adminPanelMens .btn.btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+
+}
+.U-form-adminPanelMens {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #E5E5E5;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.U-form-adminPanelMens .form-group .form-control {
+    height: 50px;
+    border-radius: 5px;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #CD8B34;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(205, 139, 52, 0.25);
+}
+.U-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+.U-table-head tr th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.U-table-head{
+    text-align: center;
+    background: #e5e5e5;
+    font-size: 20px;
+		
+}
+.U-table-heading1 {
+    width: 78px;
+}
+.U-table-heading2 {
+    width: 135px;
+}
+.U-table-heading3 {
+    width: 200px;
+}
+.U-table-heading4 {
+    width: 124px;
+}
+.U-table-heading5 {
+    width: 200px;
+}
+.U-table-heading6 {
+    width: 400px;
+}
+.U-table-heading7 {
+    width: 100px;
+}
+.U-section-heading{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.U-section-heading-anchor{
+    color: #000000;
+}
+.U-section-heading-anchor:hover{
+    color: #CD8B34;
+}

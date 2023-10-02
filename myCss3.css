@@ -1,0 +1,32 @@
+@charset "utf-8";
+.u-about-logo {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: thick none #000000;
+    border-radius: 40px;
+}
+.u-about-div2 {
+    margin-top: 116px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: thick none #000000;
+    border-radius: 40px;
+    padding-bottom: 20px;
+    margin-right: 50px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}
+.u-about-div2-h3 {
+    padding-bottom: 20px;
+}
+.u-about-div2-button {
+    margin-bottom: 3px;
+
+}
+.u-about-div2-p {
+    margin-bottom: -56px;
+}
+.u-about-div2-sec2 {
+    background-color: #CD8B34;
+}

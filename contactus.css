@@ -1,0 +1,94 @@
+@charset "utf-8";
+.U.section1 {
+
+
+}
+.container-fluid .U.section1 {
+
+
+}
+.U-section1-div1 {
+
+}
+.U-section1-heading {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.U-div1-location {
+    margin-top: 16px;
+    text-align: center;
+    font-size: large;
+}
+.col-xl-6 section .row {
+    margin-top: 47px;
+}
+
+.U-section2-call {
+    align-content: center;
+    margin-top: 31px;
+}
+.U-call {
+    margin-left: 152px;
+}
+.row .col-xl-6 img {
+    margin-left: 120px;
+}
+.U-section1-div2 {
+    background-color: #e5e5e5;
+}
+.row.U-section1-div1 .col-xl-6 iframe {
+    margin-left: -14px;
+    width: 104%;
+}
+.container-fluid section p {
+    text-align: center;
+    font-size: x-large;
+}
+.U-paragraph1 {
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.U-img-paragaraph {
+    margin-left: 80px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+.U-aboutnsbm {
+    margin-top: 25px;
+}
+.U-storyofnsbm {
+    width: 50%;
+    background-color: #CB8D34;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.U-storyofnsbm:hover {
+    background-color: #FFFFFF;
+    color: #CD8B34;
+
+}
+.U-developers-tabel{
+	margin-left: auto;
+	margin-right: auto;
+}
+tr td img {
+
+
+}
+.U-username {
+    text-align: center;
+    margin-top: -134px;
+    margin-bottom: 113px;
+}
+.U-socialmedia-icons {
+    margin-top: -100px;
+    margin-left: 238px;
+    margin-bottom: 70px;
+}
+.U-usertable {
+    background-color: #e5e5e5;
+}

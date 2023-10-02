@@ -1,0 +1,115 @@
+@charset "utf-8";
+.U-product-img {
+    height: 521px;
+    width: 374px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 25px 5px;
+    box-shadow: 0 0 25px 5px;
+}
+.U-div1 {
+    background-color: #CD8B34;
+    margin-left: 56px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 101px;
+}
+.row .col-xl-6 .text-center {
+
+
+}
+.row .col-xl-6 h2 {
+    margin-bottom: -92px;
+    margin-top: 14px;
+}
+
+.row .col-xl-6 p {
+
+
+}
+.U-buynow-button {
+    background-color: #CD8B34;
+    width: 100%;
+    height: 54px;
+    font-weight: bold;
+    font-size: 27px;
+    border: none;
+}
+.U-buynow-button:hover {
+    background-color: #FFFFFF;
+	color: #CD8B34;
+	border: none
+}
+.U-div2 {
+    padding-top: 34px;
+    padding-right: 100px;
+}
+.U-div2-p {
+    margin-bottom: -83px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  .U-exit-button{
+    margin-top: 10px;
+  }
+  .U-exit-button:hover{
+    color:#CD8B34;
+    background-color:#FFFFFF ;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }

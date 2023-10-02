@@ -1,0 +1,42 @@
+@charset "utf-8";
+.container-fluid section {
+    margin-top: 20px;
+    margin-bottom: 16px;
+
+}
+.U-section-heading {
+    text-align: center;
+    font-weight: bold;
+}
+.U-section-tablecontainer {
+    background-color: #E5E5E5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+}
+.U-section-table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #E5E5E5;
+}
+tr td .btn.btn-lg {
+    width: 98%;
+    height: 100px;
+    background-color: #CD8B34;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+tr td .btn.btn-lg:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.U-section-paragraph {
+    font-size: 16pt;
+    margin-top: 20px;
+}
